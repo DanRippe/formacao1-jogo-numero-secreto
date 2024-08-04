@@ -53,7 +53,7 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaNumerosSorteados.push(numeroEscolhido);
-        console.log(listaNumerosSorteados);
+        //console.log(listaNumerosSorteados);
         return numeroEscolhido;
     }
 }
